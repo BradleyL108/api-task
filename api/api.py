@@ -55,7 +55,6 @@ def api_filter():
     print(author)
     author = string.capwords(author)
     print(author)
-    
     query = "SELECT * FROM books WHERE"
     to_filter = []
 
