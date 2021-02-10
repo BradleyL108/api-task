@@ -1,4 +1,14 @@
 """
+Create api with access to names of swimming students, events and times
+call upon api with user input, create pdf/image of each person or view a single person
+saves all as pdf that can be printed etc
+saves/view event / communities
+arguments in link for community, hg/year
+
+import reportlab
+creating multiple page document - space remaining on page, decide to move to next page
+
+
 https://realpython.com/creating-modifying-pdf/#creating-a-pdf-file-from-scratch
 https://www.geeksforgeeks.org/python-string-capwords-method/
 https://stackoverflow.com/questions/1549641/how-can-i-capitalize-the-first-letter-of-each-word-in-a-string
@@ -11,6 +21,7 @@ import flask
 from flask import request, jsonify
 import sqlite3
 import string
+import reportlab
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
