@@ -1,3 +1,12 @@
+"""
+https://realpython.com/creating-modifying-pdf/#creating-a-pdf-file-from-scratch
+https://www.geeksforgeeks.org/python-string-capwords-method/
+https://stackoverflow.com/questions/1549641/how-can-i-capitalize-the-first-letter-of-each-word-in-a-string
+https://www.programiz.com/python-programming/methods/string/casefold
+https://stackoverflow.com/questions/319426/how-do-i-do-a-case-insensitive-string-comparison
+https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
+https://linuxconfig.org/how-to-parse-data-from-json-into-python
+"""
 import flask
 from flask import request, jsonify
 import sqlite3
