@@ -1,4 +1,5 @@
 """
+one project is creating the api - another is automating swimming/event timetabling - another is being able to plot things from the api.
 Create api or alternatively just use csv/database file with access to names of students, events and times
 call upon api with user input, create pdf/image of each person or view a single person
 saves all as pdf that can be printed etc
