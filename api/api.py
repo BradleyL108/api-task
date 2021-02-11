@@ -6,6 +6,8 @@ saves all as pdf that can be printed etc
 saves/view event/communities/age group
 arguments in link for community, homegroup/year
 
+graphing: event participation vs community/homegroup/class(bar/column graph)   birth year/year level(line graph)
+
 import reportlab
 creating multiple page document - space remaining on page, decide when to move to next page
 based on total space of page- used line and spacing
