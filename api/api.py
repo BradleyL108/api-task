@@ -1,12 +1,13 @@
 """
-Create api with access to names of swimming students, events and times
+Create api or alternatively just use csv/database file with access to names of students, events and times
 call upon api with user input, create pdf/image of each person or view a single person
 saves all as pdf that can be printed etc
-saves/view event / communities
-arguments in link for community, hg/year
+saves/view event/communities/age group
+arguments in link for community, homegroup/year
 
 import reportlab
-creating multiple page document - space remaining on page, decide to move to next page
+creating multiple page document - space remaining on page, decide when to move to next page
+based on total space of page- used line and spacing
 
 
 https://realpython.com/creating-modifying-pdf/#creating-a-pdf-file-from-scratch
