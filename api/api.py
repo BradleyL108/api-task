@@ -66,10 +66,10 @@ def api_filter():
     id = query_parameters.get('id')
     published = (query_parameters.get('published'))
     author = query_parameters.get('author')
-    author = author.casefold()
-    print(author)
-    author = string.capwords(author)
-    print(author)
+    #author = author.casefold()
+    #print(author)
+    #author = string.capwords(author)
+    #print(author)
     query = "SELECT * FROM books WHERE"
     to_filter = []
 
