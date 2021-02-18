@@ -1,10 +1,26 @@
 import csv
+import matplotlib.pyplot as plt
+import pillow
+data1=[]
+data2=[]
+
+
+
 with open('afl_stats.csv', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
-        print(row['Rainfall(mm)'], row['Year'])
+        data1.append(row['Rainfall(mm)'])
+        data2.append(row['Year'])
+print(data1)
 
 
+plt.plot(data2,data1, marker='o')
+
+plt.title('Data from the CSV File: Rainfall and Year')
+
+plt.xlabel('Rainfall')
+plt.ylabel('Year')
+plt.show()
 
 
 print(row)
